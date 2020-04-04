@@ -1,4 +1,4 @@
-# Open-Service-Broker-for-Provisioning-Jenkins-enabled-GIT-repository-as-a-Service-
+# Open-Service-Broker-for-Provisioning-Jenkins-enabled-GIT-repository-as-a-Service
 Aim of this project is to Design and Implement an OSB for provisioning "Jenkins enabled Git repository as a Service" on Kubernetes
 
 - [ ] Request a git repo along with Jenkins Job to be provisioned

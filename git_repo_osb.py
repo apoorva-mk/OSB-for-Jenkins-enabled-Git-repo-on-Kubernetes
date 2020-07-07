@@ -34,8 +34,20 @@ class MyServiceBroker(ServiceBroker):
                   details: ProvisionDetails,
                   async_allowed: bool,
                   **kwargs) -> ProvisionedServiceSpec:
-        # Create service instance
-        # ...
+        """
+            PUT v2/service_instances/<instance_id>
+
+            Body
+            {
+                "service_id":"<service_id>",
+                "plan_id":"<plan_id>",
+                "organization_guid": "<organisation_guid>",
+                "space_guid": "<space_guid>"
+            }
+
+            Returns:
+               JSON document with provisioned instance details 
+        """
 
         return ProvisionedServiceSpec(state=ProvisionState.IS_ASYNC,
             operation='provision', dashboard_url="http://github.com")

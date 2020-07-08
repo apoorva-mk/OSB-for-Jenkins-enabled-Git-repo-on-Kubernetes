@@ -1,0 +1,5 @@
+#Jenkins Server details and credentials
+
+JENKINS_SERVER="https://example.jenkins.url/"
+JENKINS_PASSWORD="XXXXXX"
+JENKINS_USERNAME="XXXXXXX"
